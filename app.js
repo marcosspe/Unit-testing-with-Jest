@@ -9,10 +9,12 @@
 const fromEuroToDollar = (Value) => {
     return Value * 1.2
 }
-module.exports = { fromEuroToDollar };
 
 const fromDollarToYen = (Value) => {
-    let euroadolar = value * 1.2;
-    return euroadolar * 127.9
+    return Value * 106.5
 }
-module.exports = { fromDollarToYen };
+
+const fromYentoPound = (Value) => {
+    return Value * 0.0067
+}
+module.exports = { fromEuroToDollar, fromDollarToYen, fromYentoPound};
